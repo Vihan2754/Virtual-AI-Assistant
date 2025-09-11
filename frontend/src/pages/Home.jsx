@@ -369,7 +369,7 @@ function Home() {
           <div className="flex items-center justify-center space-x-2 mb-6">
             <div className={`w-3 h-3 rounded-full ${listening ? 'bg-emerald-500 animate-pulse' : 'bg-slate-300'}`}></div>
             <span className="text-slate-600 font-medium">
-              {listening ? "Listening..." : "Say my name to get started"}
+              {listening ? "Listening..." : "Refresh the page"}
             </span>
           </div>
 
