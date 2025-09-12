@@ -4,6 +4,10 @@ A full-stack AI-powered Virtual Assistant built with the MERN Stack (MongoDB, Ex
 
 ✨ Deployed for FREE on Render and completely customizable with your name, branding, and voice.
 
+🔗 Live Demo Link
+
+  https://virtual-ai-assistant-y37a.onrender.com/
+
 🌟 Features
 
 🎤 Voice Input + Output → Talks like JARVIS using Web Speech API
@@ -20,12 +24,12 @@ A full-stack AI-powered Virtual Assistant built with the MERN Stack (MongoDB, Ex
 
 🚀 Deployed on Render → Free hosting & live anywhere
 
-🛠️ Tech Stack
-
-Frontend: React, Web Speech API
-Backend: Node.js, Express.js
-Database: MongoDB
-AI Engine: Gemini AI
-Authentication: JWT, bcryptjs
-File Uploads: Multer, Cloudinary
-Deployment: Render
+| Category           | Technology Used                |
+| ------------------ | ------------------------------ |
+| **Frontend**       | React, Web Speech API          |
+| **Backend**        | Node.js, Express.js            |
+| **Database**       | MongoDB                        |
+| **AI Engine**      | Gemini AI                      |
+| **Authentication** | JWT (JSON Web Token), bcryptjs |
+| **File Uploads**   | Multer, Cloudinary             |
+| **Deployment**     | Render                         |
