@@ -394,19 +394,17 @@ function Home() {
 
           {/* Visual Indicators */}
           {!userText && !aiText && (
-            <div className="flex items-center justify-center space-x-6 mb-8">
-              <div className="text-center">
-                <div className={`w-16 h-16 rounded-full border-4 flex items-center justify-center mb-2 transition-colors ${
-                  listening ? 'border-emerald-500 bg-emerald-50' : 'border-slate-200 bg-slate-50'
-                }`}>
-                  {listening ? (
-                    <FiMic className="w-8 h-8  text-emerald-600" />
-                  ) : (
-                    <FiMicOff className="w-8 h-8 text-slate-400" />
-                  )}
-                </div>
-                <p className="text-sm text-slate-600 font-medium">Voice Recognition</p>
+            <div className="text-center mb-8">
+              <div className={`w-16 h-16 rounded-full border-4 flex items-center justify-center mb-2 mx-auto transition-colors ${
+                listening ? 'border-emerald-500 bg-emerald-50' : 'border-slate-200 bg-slate-50'
+              }`}>
+                {listening ? (
+                  <FiMic className="w-8 h-8 text-emerald-600" />
+                ) : (
+                  <FiMicOff className="w-8 h-8 text-slate-400" />
+                )}
               </div>
+              <p className="text-sm text-slate-600 font-medium">Voice Recognition</p>
             </div>
           )}
         </div>
